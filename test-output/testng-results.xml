@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[OpenBrowser]]>
+    </line>
+    <line>
+      <![CDATA[Login to Application]]>
+    </line>
+    <line>
+      <![CDATA[Filpkart Register page]]>
+    </line>
+    <line>
+      <![CDATA[Logout from Application]]>
+    </line>
+    <line>
+      <![CDATA[CloseBrowser]]>
+    </line>
+    <line>
+      <![CDATA[OpenBrowser]]>
+    </line>
+    <line>
+      <![CDATA[Login to Application]]>
+    </line>
+    <line>
+      <![CDATA[Applying Filters]]>
+    </line>
+    <line>
+      <![CDATA[Logout from Application]]>
+    </line>
+    <line>
+      <![CDATA[CloseBrowser]]>
+    </line>
+    <line>
+      <![CDATA[OpenBrowser]]>
+    </line>
+    <line>
+      <![CDATA[Login to Application]]>
+    </line>
+    <line>
+      <![CDATA[Searching for Iphone]]>
+    </line>
+    <line>
+      <![CDATA[Logout from Application]]>
+    </line>
+    <line>
+      <![CDATA[CloseBrowser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-07T17:13:52 IST" name="Suite" finished-at="2023-12-07T17:14:49 IST" duration-ms="57130">
+    <groups>
+    </groups>
+    <test started-at="2023-12-07T17:13:52 IST" name="Test" finished-at="2023-12-07T17:14:49 IST" duration-ms="57130">
+      <class name="com.Amazon.Testscript.IphoneSearch">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.Testscript.IphoneSearch@4f209819]" started-at="2023-12-07T17:14:27 IST" name="openBrowser" finished-at="2023-12-07T17:14:34 IST" duration-ms="6870" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OpenBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Amazon.Testscript.IphoneSearch@4f209819]" started-at="2023-12-07T17:14:34 IST" name="login" finished-at="2023-12-07T17:14:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="searchIphone()[pri:0, instance:com.Amazon.Testscript.IphoneSearch@4f209819]" started-at="2023-12-07T17:14:34 IST" name="searchIphone" finished-at="2023-12-07T17:14:49 IST" duration-ms="14996" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Searching for Iphone]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchIphone -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Amazon.Testscript.IphoneSearch@4f209819]" started-at="2023-12-07T17:14:49 IST" name="logout" finished-at="2023-12-07T17:14:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout from Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Amazon.Testscript.IphoneSearch@4f209819]" started-at="2023-12-07T17:14:49 IST" name="closeBrowser" finished-at="2023-12-07T17:14:49 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CloseBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Amazon.Testscript.IphoneSearch -->
+      <class name="com.Amazon.Testscript.RegisterPage">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.Testscript.RegisterPage@50b472aa]" started-at="2023-12-07T17:13:52 IST" name="openBrowser" finished-at="2023-12-07T17:13:59 IST" duration-ms="7127" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OpenBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Amazon.Testscript.RegisterPage@50b472aa]" started-at="2023-12-07T17:13:59 IST" name="login" finished-at="2023-12-07T17:13:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="pageRister()[pri:0, instance:com.Amazon.Testscript.RegisterPage@50b472aa]" started-at="2023-12-07T17:13:59 IST" name="pageRister" finished-at="2023-12-07T17:14:04 IST" duration-ms="5488" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Filpkart Register page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pageRister -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Amazon.Testscript.RegisterPage@50b472aa]" started-at="2023-12-07T17:14:04 IST" name="logout" finished-at="2023-12-07T17:14:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout from Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Amazon.Testscript.RegisterPage@50b472aa]" started-at="2023-12-07T17:14:04 IST" name="closeBrowser" finished-at="2023-12-07T17:14:05 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CloseBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Amazon.Testscript.RegisterPage -->
+      <class name="com.Amazon.Testscript.ValidateFilters">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.Testscript.ValidateFilters@3d74bf60]" started-at="2023-12-07T17:14:05 IST" name="openBrowser" finished-at="2023-12-07T17:14:12 IST" duration-ms="7163" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OpenBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Amazon.Testscript.ValidateFilters@3d74bf60]" started-at="2023-12-07T17:14:12 IST" name="login" finished-at="2023-12-07T17:14:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="ApplyingFilters()[pri:0, instance:com.Amazon.Testscript.ValidateFilters@3d74bf60]" started-at="2023-12-07T17:14:12 IST" name="ApplyingFilters" finished-at="2023-12-07T17:14:27 IST" duration-ms="14993" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Applying Filters]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ApplyingFilters -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Amazon.Testscript.ValidateFilters@3d74bf60]" started-at="2023-12-07T17:14:27 IST" name="logout" finished-at="2023-12-07T17:14:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout from Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Amazon.Testscript.ValidateFilters@3d74bf60]" started-at="2023-12-07T17:14:27 IST" name="closeBrowser" finished-at="2023-12-07T17:14:27 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CloseBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Amazon.Testscript.ValidateFilters -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
